@@ -1,0 +1,176 @@
+#selection{
+    color: white;
+    margin-top: 6%;
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: 800;
+    margin-bottom: 5%;
+    text-shadow: 4px 4px rgb(247, 130, 35);
+
+}
+
+.background{
+    object-fit: contain;
+    background-repeat: no-repeat;
+
+
+}
+
+
+.text1{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 3%;
+    text-shadow: 2px 2px rgb(184, 85, 5);
+}
+
+:hover.button {
+   
+    transform: scale(1.1);
+    transition:  all ease-in-out 0,5s;
+    
+
+}
+.button{
+    padding: 0;
+    border-radius: 10%;
+    border:none;
+}
+
+#hihi{
+    width: 200px;
+    height: 300px;
+    border-radius: 8%;
+  
+}
+.back{
+    font-size: 50px;
+    width: 80px;
+    height: 80px;
+    background: none;
+    border: none;   
+    
+}
+
+
+#concu{
+    padding-top: 10px;
+    padding-left: 70px;
+    
+}
+
+
+#icon{
+    padding: 0 auto;
+}
+
+#myImg{
+    
+    border-radius: 10%;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.buttongame1{
+   
+  
+    text-align: center;
+    font-size: xx-large;
+}
+
+:hover.button{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400);
+.snip1457 {
+  font-family: 'Raleway', Arial, sans-serif;
+  border: none;
+  background-color: #db841a;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 0px 30px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  line-height: 46px;
+  font-weight: 400;
+  font-size: 1em;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  font-size: 16px;
+  border-radius: 23px;
+  letter-spacing: 2px;
+  -webkit-transform: translateZ(0);
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.snip1457:before {
+  opacity: 0;
+  content: "";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border-radius: inherit;
+  background-color: #ffffff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+}
+.snip1457:after {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border: 5px solid #5666a5;
+  content: '';
+  border-radius: inherit;
+}
+.snip1457:hover,
+.snip1457.hover {
+  background-color: #5666a5;
+  color: #ffffff;
+}
+.snip1457:hover:before,
+.snip1457.hover:before {
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
+  opacity: 0.25;
+}
+
+.textgame1{
+    color: white;
+    margin-top: 1%;
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: 800;
+    margin-bottom: 5%;
+    text-shadow: 4px 4px rgb(247, 130, 35);
+}
+
+
+/* ////----////////////////////////////////////////////////////////////////////// */
+
+
+
+
+/* //////////////////////game3 */
+
+
+
+
+

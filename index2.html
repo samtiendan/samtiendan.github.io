@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body id="nen" background="./img/BG3.jpg" style="background-size: cover no-repeat;">
+
+    <div id="concu">
+        <a href="./index.html">
+            <a href="./index.html">
+                <button class="snip1457 ">
+                    Back
+                </button>
+            </a>
+        </a>
+
+    </div>
+    <p class="textgame1">Ừng ực</p>
+    <div class="buttongame1">
+        <button onclick=random() class="button" type="button">
+            <img id="myImg" src="./img/BG2.jpg" alt="">
+        </button>
+    </div>
+
+    <script>
+        let random = () => {
+            let data = ["./img/1.png", "./img/2.ipg", "./img/2.png", "./img/3.png", "./img/4.png", "./img/5.png", "./img/6.png", "./img/7.png", "./img/8.png", "./img/9.png", "./img/10.png", "./img/11.png", "./img/12.png", "./img/13.png", "./img/14.png", "./img/15.png", "./img/16.png", "./img/17.png", "./img/18.png", "./img/19.png", "./img/20.png", "./img/21.png", "./img/22.png", "./img/23.png", "./img/24.png", "./img/25.png", "./img/26.png", "./img/27.png", "./img/28.png", "./img/29.png", "./img/30.png", "./img/31.png", "./img/32.png", "./img/33.png", "./img/34.png", "./img/35.png", "./img/36.png", "./img/37.png", "./img/38.png"]
+            let i = Math.floor(Math.random() * 38)
+            let img = document.querySelector('#myImg')
+            img.src = data[i]
+        }
+    </script>
+</body>
+
+</html>
